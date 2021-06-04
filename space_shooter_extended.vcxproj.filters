@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{f69308e4-36cd-4d6a-b2c3-b4e84e135481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{963a2d5e-21dc-408e-ba84-d9adde7e4b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screen_settings">
+      <UniqueIdentifier>{df709467-b25a-45bb-99c1-0a12229b60f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{9b1670ce-47a0-40c9-9db6-1c9b73d5b44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_settings">
+      <UniqueIdentifier>{d7c5499d-cd55-402c-8102-ca067f65b4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="weapons">
+      <UniqueIdentifier>{f716af84-5ccd-40b4-a326-d1bd28d98d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemies">
+      <UniqueIdentifier>{e410705f-eb2f-46c9-9707-769020185e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collisions">
+      <UniqueIdentifier>{e43b73d7-d234-4fe1-93aa-28b48b21b5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boss">
+      <UniqueIdentifier>{7e0c032e-ccc6-44b2-9905-27405ba8831f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\listADT.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\tools.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="screen_settings\screen_settings.cpp">
+      <Filter>screen_settings</Filter>
+    </ClCompile>
+    <ClCompile Include="player\spaceship.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="game_settings\game_settings.cpp">
+      <Filter>game_settings</Filter>
+    </ClCompile>
+    <ClCompile Include="enemies\comet_list.cpp">
+      <Filter>enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemies\enemies.cpp">
+      <Filter>enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemies\fighter_list.cpp">
+      <Filter>enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemies\turret_list.cpp">
+      <Filter>enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\bullet_list.cpp">
+      <Filter>weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\enemy_weapons.cpp">
+      <Filter>weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\laser.cpp">
+      <Filter>weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\mine_list.cpp">
+      <Filter>weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\rocket_list.cpp">
+      <Filter>weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapons.cpp">
+      <Filter>weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="collisions\collisions.cpp">
+      <Filter>collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="boss\akiramboss.cpp">
+      <Filter>boss</Filter>
+    </ClCompile>
+    <ClCompile Include="boss\bosses.cpp">
+      <Filter>boss</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game\display.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game_objects.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\listADT.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\tools.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="screen_settings\screen_settings.hpp">
+      <Filter>screen_settings</Filter>
+    </ClInclude>
+    <ClInclude Include="player\spaceship.hpp">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="game_settings\game_settings.hpp">
+      <Filter>game_settings</Filter>
+    </ClInclude>
+    <ClInclude Include="enemies\comet_list.hpp">
+      <Filter>enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemies\enemies.hpp">
+      <Filter>enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemies\fighter_list.hpp">
+      <Filter>enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemies\turret_list.hpp">
+      <Filter>enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons\bullet_list.hpp">
+      <Filter>weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons\enemy_weapons.hpp">
+      <Filter>weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons\laser.hpp">
+      <Filter>weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons\mine_list.hpp">
+      <Filter>weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons\rocket_list.hpp">
+      <Filter>weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons\weapons.hpp">
+      <Filter>weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="collisions\collisions.hpp">
+      <Filter>collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="boss\akiramboss.hpp">
+      <Filter>boss</Filter>
+    </ClInclude>
+    <ClInclude Include="boss\bosses.hpp">
+      <Filter>boss</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
